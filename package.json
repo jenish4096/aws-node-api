@@ -1,0 +1,30 @@
+{
+  "name": "aws-node-api",
+  "version": "1.0.0",
+  "description": "AWS serverless node API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenish4096/aws-node-api.git"
+  },
+  "keywords": [
+    "aws-serverless"
+  ],
+  "author": "jenish patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenish4096/aws-node-api/issues"
+  },
+  "homepage": "https://github.com/jenish4096/aws-node-api#readme",
+  "dependencies": {
+    "express": "4.18.2",
+    "serverless-http": "3.1.1",
+    "serverless-secrets-plugin": "0.1.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "13.2.0"
+  }
+}
